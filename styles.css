@@ -1,0 +1,47 @@
+:root {
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+    --brown-800: #854632;
+    --white: #FFFFFF;
+
+    --font-family-young: 'Young Serif', serif;
+    --font-family-outfit: 'Outfit', sans-serif;
+
+    --font-line-height-100: 1;
+    --font-line-height-150: 1.5;
+    --font-letter-spacing: 0px;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+
+    --font-text-40: 4rem;
+    --font-text-28: 2.8rem;
+    --font-text-20: 2rem;
+    --font-text-16: 1.6rem;
+
+    --space-128: 128px;
+    --space-48: 48px;
+    --space-40: 40px;
+    --space-32: 32px;
+    --space-24: 24px;
+    --space-16: 16px;
+    --space-12: 12px;
+    --space-8: 8px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {}
