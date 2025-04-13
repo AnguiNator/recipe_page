@@ -38,10 +38,117 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: var(--font-family-outfit);
+    /* font-weight: var(--font-weight-regular); */
+    font-size: var(--font-text-16);
+    color: var(--stone-600);
+    line-height: var(--font-line-height-150);
+    letter-spacing: var(--font-letter-spacing);
 }
 
 html {
     font-size: 62.5%;
 }
 
-body {}
+body {
+    background-color: var(--rose-50);
+}
+
+.card_title {
+    font-family: var(--font-family-young);
+    font-weight: var(--font-weight-regular);
+    line-height: var(--font-line-height-100);
+}
+
+.card_flex {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-24);
+}
+
+.card {
+    max-width: 736px;
+    background-color: var(--white);
+    padding: var(--space-40);
+    gap: var(--space-40);
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    color: var(--stone-900);
+    font-size: var(--font-text-40);
+}
+
+h2 {
+    font-size: var(--font-text-28);
+    color: var(--brown-800);
+}
+
+h3 {
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-text-20);
+    line-height: var(--font-line-height-100);
+    color: var(--rose-800);
+}
+
+.card_icon {
+    display: flex;
+    width: var(--space-16);
+    height: var(--space-24);
+    align-items: center;
+}
+
+.card_elipse {
+    width: 4px;
+    height: 4px;
+    background-color: var(--rose-800);
+    border-radius: 50%;
+}
+
+.card_line {
+    border: 1px solid var(--stone-150);
+}
+
+.card_numbers {
+    font-weight: var(--font-weight-bold);
+    color: var(--brown-800);
+}
+
+.card_content {
+    gap: var(--space-32);
+}
+
+.card_preparation {
+    background-color: var(--rose-50);
+    padding: var(--space-24);
+    border-radius: var(--space-12);
+    gap: var(--space-16);
+}
+
+.card_section {
+    gap: var(--space-8);
+}
+
+.card_items {
+    flex-direction: row;
+    padding-left: var(--space-8);
+    gap: var(--space-16);
+}
+
+
+
+.elipse_brown {
+    background-color: var(--brown-800);
+}
+
+.card_table {
+    gap: var(--space-12);
+}
+
+.card_row {
+    flex-direction: row;
+    gap: var(--space-16);
+    padding: 0 var(--space-32);
+    max-width: 288px;
+}
